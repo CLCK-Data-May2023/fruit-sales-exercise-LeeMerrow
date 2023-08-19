@@ -5,4 +5,3 @@ fruit_sales = pd.DataFrame({'Apples':[35, 41], 'Bananas':[21,34]}, index=['2017 
 
 with open('fruits.csv', 'w') as csv_file:
     fruit_sales.to_csv(path_or_buf=csv_file)
-    
